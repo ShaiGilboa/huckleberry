@@ -7,6 +7,74 @@ html,
 body {
   margin: 0;
   padding: 0;
+  --green: hsl(160, 100%, 30%);
+  --goldLight: hsl(45, 100%, 50%);
+  --goldDark: hsl(45, 100%, 40%);
+  --grayBlack: hsl(0, 0%, 0%);
+  --grayVeryDark: hsl(0, 0%, 10%);
+  --grayDark: hsl(0, 0%, 30%);
+  --grayMedium: hsl(0, 0%, 40%);
+  --grayLight: hsl(0, 0%, 60%);
+  --grayWhite: hsl(0, 0%, 100%);
+
 }
 
 /* Add styles here! */
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  line-height: 1.8;
+}
+
+header {
+  border-bottom: 8px solid var(--grayMedium);
+  height: 50%;
+}
+
+.title {
+  padding-top: 120px;
+  margin-bottom: 60px
+}
+
+
+strong {
+  color: var(--green);
+}
+
+.max-width-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-chunk {
+  max-width: 320px;
+  padding-left: 16px ;
+  padding-right: 16px
+}
+
+main {
+  background-color: var(--grayLight);
+  height: 50%;
+  padding-top: 100px;
+}
+
+.card {
+  background-color: var(--grayWhite);
+  border-bottom: 8px solid var(--grayMedium);
+  padding: 8px 32px 8px 16px;
+}
+
+.indented-heading {
+  display: inline-block;
+  margin-left: -32px;
+  padding: 16px 32px 16px 32px;
+  background-color: var(--goldLight);
+  border-bottom: 8px solid var(--goldDark);
+}
